@@ -6,7 +6,7 @@ const indexRouter = require('./routes/index.route')
 const todoRouter = require('./routes/todo.route')
 const bodyParser =require('body-parser')
 
-const URL = 'mongodb+srv://amansingh:aman@cluster0.xlsxx.mongodb.net/todo-app?retryWrites=true&w=majority'
+const URL = ''
 
 mongoose.connect(URL).then(() =>{
     console.log('Connection Successful!');
